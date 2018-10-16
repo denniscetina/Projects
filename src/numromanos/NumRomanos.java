@@ -29,7 +29,7 @@ public class NumRomanos {
             try {
                 valor = entrada.nextInt();
             } catch (InputMismatchException ime) {
-                System.out.println("Ingreso caracter");
+                System.out.println("Ingreso carácteres");
             }
         } while ((valor < 1) || (valor > 1000));
         String unidades, decenas, centenas, millar;
